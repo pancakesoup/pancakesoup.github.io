@@ -1823,7 +1823,7 @@ code::-webkit-scrollbar-thumb:hover {
 }
 
         .gt-bg-theme-color-first {
-          background: #f1f3f5!important;
+          background: #e9ecef!important;
         }
         
         .gt-bg-theme-color-second {
@@ -1831,7 +1831,7 @@ code::-webkit-scrollbar-thumb:hover {
         }
         
         .gt-bg-content-color-first {
-          background: #5f6169!important;
+          background: #343a40!important;
         }
         
         .gt-bg-content-color-second {
@@ -1847,7 +1847,7 @@ code::-webkit-scrollbar-thumb:hover {
         }
         
         .gt-c-theme-color-first {
-          color: #f1f3f5!important;
+          color: #e9ecef!important;
         }
         
         .gt-c-theme-color-second {
@@ -1855,7 +1855,7 @@ code::-webkit-scrollbar-thumb:hover {
         }
         
         .gt-c-content-color-first {
-          color: #5f6169!important;
+          color: #343a40!important;
         }
         
         .gt-c-content-color-second {
@@ -1871,7 +1871,7 @@ code::-webkit-scrollbar-thumb:hover {
         }
         
         body {
-          color: #5f6169!important;
+          color: #343a40!important;
         }
         
         a {
@@ -1880,20 +1880,20 @@ code::-webkit-scrollbar-thumb:hover {
         
         .post-content h1 {
           display: inline-block;
-          color: #5f6169!important;
+          color: #343a40!important;
           position: relative!important;
           background: linear-gradient(180deg, transparent 75%, RGBA(33,150,243,0.4) 0)!important;
         }
         
         .post-content h2 {
           display: inline-block;
-          color: #5f6169!important;
+          color: #343a40!important;
           position: relative!important;
           background: linear-gradient(180deg, transparent 75%, RGBA(33,150,243,0.4) 0)!important;
         }
         
         .gt-a-link {
-          color: #5f6169!important;
+          color: #343a40!important;
           position: relative!important;
           background: linear-gradient(180deg, transparent 75%, RGBA(33,150,243,0.4) 0)!important;
         }
@@ -1916,7 +1916,7 @@ code::-webkit-scrollbar-thumb:hover {
         }
         
         .search-input {
-          color: #5f6169!important;
+          color: #343a40!important;
           background-color: #f8f9fa!important;
         }
          
