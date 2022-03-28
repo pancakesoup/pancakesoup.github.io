@@ -1823,11 +1823,11 @@ code::-webkit-scrollbar-thumb:hover {
 }
 
         .gt-bg-theme-color-first {
-          background: #ffffff!important;
+          background: #f1f3f5!important;
         }
         
         .gt-bg-theme-color-second {
-          background: #dddddd!important;
+          background: #f8f9fa!important;
         }
         
         .gt-bg-content-color-first {
@@ -1847,11 +1847,11 @@ code::-webkit-scrollbar-thumb:hover {
         }
         
         .gt-c-theme-color-first {
-          color: #ffffff!important;
+          color: #f1f3f5!important;
         }
         
         .gt-c-theme-color-second {
-          color: #dddddd!important;
+          color: #f8f9fa!important;
         }
         
         .gt-c-content-color-first {
@@ -1917,6 +1917,6 @@ code::-webkit-scrollbar-thumb:hover {
         
         .search-input {
           color: #5f6169!important;
-          background-color: #dddddd!important;
+          background-color: #f8f9fa!important;
         }
          
