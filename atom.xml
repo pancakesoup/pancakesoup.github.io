@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pancakesoup.github.io</id>
-    <title>煎饼汤的博客</title>
-    <updated>2022-03-28T10:53:26.696Z</updated>
+    <title>煎饼汤</title>
+    <updated>2022-03-28T14:05:27.946Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://pancakesoup.github.io"/>
     <link rel="self" href="https://pancakesoup.github.io/atom.xml"/>
-    <subtitle>Pancake Soup</subtitle>
     <logo>https://pancakesoup.github.io/images/avatar.png</logo>
     <icon>https://pancakesoup.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2022, 煎饼汤的博客</rights>
+    <rights>All rights reserved 2022, 煎饼汤</rights>
     <entry>
         <title type="html"><![CDATA[Hello World]]></title>
         <id>https://pancakesoup.github.io/post/hello-gridea/</id>
