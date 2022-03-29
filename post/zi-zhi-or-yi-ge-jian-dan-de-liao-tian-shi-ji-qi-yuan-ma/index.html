@@ -1,11 +1,10 @@
 <html>
-
 <head>
     <meta charset="utf-8"/>
 <meta name="description" content=""/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-<title>友情链接 - 煎饼汤</title>
+<title>自制 | 一个简单的聊天室及其源码 | 煎饼汤</title>
 
 <link rel="shortcut icon" href="https://pancakesoup.github.io/favicon.ico?v=1648539572140">
 
@@ -27,12 +26,11 @@
 
 
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
 </head>
-
 <body>
 <div class="main gt-bg-theme-color-first">
-        <div class="main-content">
-            <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg">
     <div class="navbar-brand">
         <img class="user-avatar" src="/images/avatar.png" alt="头像">
         <div class="site-name gt-c-content-color-first">
@@ -96,62 +94,76 @@
     </div>
 </nav>
 
-            <div class="post-container">
-                <div class="post-detail">
-                    <article>
-                        <!-- <div class="post-content-wrapper"> -->
-                            <div class="post-content">
-                                <div class="friends-desc">
-                                    <h2 id="本站信息">本站信息</h2>
-<p>名称: 煎饼汤<br>
-简介: demo (原煎饼摊)<br>
-链接: https://pancakesoup.github.io/<br>
-图标: https://pancakesoup.github.io/images/avatar.png</p>
-<blockquote>
-<p>(<sub>￣▽￣)</sub>   欢迎在任意文章评论区留下你的友链。</p>
-</blockquote>
-
-                                </div>
-                                <h3 id="linklist">友链列表</h3>
-                                
-                                    
-                                        <div class="friend-box">
-                                            <img class="friend-avatar" src="">
-                                            <div class="flink-info">
-                                                
-                                                        <a class="gt-c-content-color-first" href="http://flyme.cf/" target="_blank">Fly 的小屋</a>
-                                                        
-                                                <br />
-                                                <div class="flink-info-desc gt-c-content-color-first">
-                                                    [主站] 相逢的人会再相逢
-                                                </div>
-                                            </div>
-                                        </div>
-                                    
-                                        <div class="friend-box">
-                                            <img class="friend-avatar" src="">
-                                            <div class="flink-info">
-                                                
-                                                        <a class="gt-c-content-color-first" href="http://blog.diaries.ga/" target="_blank">网页托管</a>
-                                                        
-                                                <br />
-                                                <div class="flink-info-desc gt-c-content-color-first">
-                                                    自建的Wordpress/Typecho博客托管，无限空间
-                                                </div>
-                                            </div>
-                                        </div>
-                                    
-                                
-                            </div>
-                        <!-- </div> -->
-                    </article>
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    自制 | 一个简单的聊天室及其源码
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2022-03-29 ·
+                    </time>
+                    
                 </div>
-                
-            </div>
+                <div class="post-content">
+                    <h2 id="网站介绍">网站介绍</h2>
+<p>在这个聊天软件臃肿的年代，给你带来最纯净的交友体验。<br>
+[button color=&quot;success&quot; icon=&quot;&quot; url=&quot;https://flyme.cf/chat/&quot; type=&quot;&quot;]预览样式[/button]</p>
+<h2 id="功能介绍">功能介绍</h2>
+<p>[tabs]<br>
+[tab name=&quot;原理介绍&quot; active=&quot;true&quot;]这是一个采用php+txt制作的聊天室网站。<br>
+数据使用txt存放，默认显示近1000条的聊天记录(可修改)。<br>
+采用jquery+ajax轮询方式，适合小型聊天环境。[/tab]<br>
+[tab name=&quot;外观介绍&quot;]本源码自带夜间模式，点击顶栏的月亮图标即可切换至夜间模式。<br>
+站内使用feather图标，简洁美观，风格统一。<br>
+[/tab]<br>
+[/tabs]<br>
+自用随意修改，可转载（最好保留本站链接），禁止倒卖！欢迎在评论区分享美化。</p>
+<h2 id="下载">下载</h2>
+<p>1.0.1<br>
+[button color=&quot;info&quot; icon=&quot;&quot; url=&quot;https://wwa.lanzouj.com/iI4WH01b0pkd&quot; type=&quot;&quot;]下载[/button]</p>
+
+                </div>
+            </article>
+        </div>
+
+        
+
+        
+
+        
+
+        
+            <script src='https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js'></script>
+
+<style>
+	div#vcomments{
+		width:100%;
+		max-width: 1000px;
+		padding: 2.5%
+	}
+</style>
 
 
+	<div id="vcomments"></div>
 
-            <div class="site-footer gt-c-content-color-first">
+
+<script>
+	new Valine({
+		el: '#vcomments',
+		appId: 'p7rqnIaqRTxlfrH9WusJkJrE-MdYXbMMI',
+		appKey: 'GqxK7XeLWiVB3pKGjy5C2MI3',
+		avatar: 'mp',
+		pageSize: 10,
+		recordIp: false,
+		placeholder: '居然什么也不说，哼',
+		visitor: false,
+	});
+</script>
+        
+
+        <div class="site-footer gt-c-content-color-first">
     <div class="slogan gt-c-content-color-first"></div>
     <div class="social-container">
         
@@ -187,8 +199,7 @@
   hljs.initHighlightingOnLoad()
 </script>
 
-        </div>
     </div>
+</div>
 </body>
-
 </html>
