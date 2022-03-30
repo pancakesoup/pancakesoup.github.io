@@ -8,7 +8,7 @@
 
 <title>搜索 | 阿卡林</title>
 
-<link rel="shortcut icon" href="https://pancakesoup.github.io/favicon.ico?v=1648641941830">
+<link rel="shortcut icon" href="https://pancakesoup.github.io/favicon.ico?v=1648683925545">
 
 <link href="https://at.alicdn.com/t/font_3199908_hh9mmkxc07.css" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
@@ -33,6 +33,29 @@
 <script src="https://cdn.jsdelivr.net/gh/fz6m/console-ban@1.5/dist/console-ban.min.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery.pjax/1.9.6/jquery.pjax.min.js"></script>
+<script src='https://unpkg.com/nprogress@0.2.0/nprogress.js'></script>
+<link rel='stylesheet' href='https://unpkg.com/nprogress@0.2.0/nprogress.css'/>
+
+<script>
+$(document).pjax('a[href^="https://pancakesoup.github.io"]:not(a[target="_blank"], a[no-pjax])', {
+    container: '#pjax-container',
+    fragment: '#pjax-container',
+    timeout: 8000
+})
+</script>
+<script>
+.on('pjax:send',
+function() {
+    NProgress.start();
+
+}}.on('pjax:complete',
+function() {
+    NProgress.done();
+
+}};
+</script>
 
 <!--<script src="media/scripts/index.js"></script>-->
 
@@ -51,7 +74,6 @@
             color: red;
         }
     </style>
-    <div id="pjax-container">
     <div class="main gt-bg-theme-color-first">
         <div class="site-name gt-c-content-color-first">
     <div class="main-content" id="pjax-container">
@@ -108,7 +130,7 @@
             
         </div>
         <div style="text-align: center">
-            <form id="gridea-search-form" style="position: relative" data-update="1648641941830" action="/search/index.html">
+            <form id="gridea-search-form" style="position: relative" data-update="1648683925545" action="/search/index.html">
                 <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder=" 输入关键词搜索......" />
                 <i class="iconfont icon-search" style="position: absolute; top: 3px; left: 10px;" ></i>
             </form>
@@ -121,7 +143,7 @@
                 <i class="iconfont icon-feather" ></i>&nbsp;搜索结果
             </h1>
        </div>
-        <div id="gridea-search-result" data-update="1648641941830">
+        <div id="gridea-search-result" data-update="1648683925545">
             <div class="searching" style="font-size: 100%; margin-top: 50px;">
                 <i class="fa fa-sync-alt fa-spin"></i>&nbsp;&nbsp;搜索中......
                 <br><br>
@@ -175,32 +197,11 @@
         mutex="true"
         >
       </div>
-<script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
-<script src="//cdn.bootcss.com/jquery.pjax/1.9.6/jquery.pjax.min.js"></script>
-<script>
-$(document).pjax('a[href^="https://pancakesoup.github.io"]:not(a[target="_blank"], a[no-pjax])', {
-    container: '#pjax-container',
-    fragment: '#pjax-container',
-    timeout: 8000
-})
-</script>
-<script>
-$(document).on('pjax:send',
-function() {
-    $('#loader-wrapper').addClass("in");
-})
-
-$(document).on('pjax:complete',
-function() {
-    $('#loader-wrapper').removeClass("in");
-}）
-</script>
 <script>
   hljs.initHighlightingOnLoad()
 </script>
 
     </div>
-</div>
 </body>
 
 </html>
