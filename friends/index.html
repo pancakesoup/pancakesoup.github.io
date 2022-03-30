@@ -7,7 +7,7 @@
 
 <title>友链 | 阿卡林</title>
 
-<link rel="shortcut icon" href="https://pancakesoup.github.io/favicon.ico?v=1648612291825">
+<link rel="shortcut icon" href="https://pancakesoup.github.io/favicon.ico?v=1648620034614">
 
 <link href="https://at.alicdn.com/t/font_3199908_hh9mmkxc07.css" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
@@ -85,7 +85,7 @@
             
         </div>
         <div style="text-align: center">
-            <form id="gridea-search-form" style="position: relative" data-update="1648612291825" action="/search/index.html">
+            <form id="gridea-search-form" style="position: relative" data-update="1648620034614" action="/search/index.html">
                 <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder=" 输入关键词搜索......" />
                 <i class="iconfont icon-search" style="position: absolute; top: 3px; left: 10px;" ></i>
             </form>
@@ -149,7 +149,8 @@
 
 
 
-            <div class="site-footer gt-c-content-color-first">
+            <div id="pjax-container">
+<div class="site-footer gt-c-content-color-first">
     <div class="slogan gt-c-content-color-first"></div>
     <div class="social-container">
         
@@ -180,7 +181,28 @@
     <div><a href="https://pancakesoup.github.io/atom.xml" target="_blank">RSS</a></a>
     </div>
 </div>
+</div>
 
+<script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/jquery.pjax/1.9.6/jquery.pjax.min.js"></script>
+<script>
+$(document).pjax('a[href^="https://pancakesoup.github.io"]:not(a[target="_blank"], a[no-pjax])', {
+    container: '#pjax-container',
+    fragment: '#pjax-container',
+    timeout: 8000
+})
+</script>
+<script>
+$(document).on('pjax:send',
+function() {
+    $('#loader-wrapper').addClass("in");
+})
+
+$(document).on('pjax:complete',
+function() {
+    $('#loader-wrapper').removeClass("in");
+}）
+</script>
 <script>
   hljs.initHighlightingOnLoad()
 </script>
