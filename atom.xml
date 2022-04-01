@@ -2,13 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pancakesoup.github.io</id>
     <title>阿卡林</title>
-    <updated>2022-03-31T00:36:53.574Z</updated>
+    <updated>2022-04-01T12:03:33.517Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://pancakesoup.github.io"/>
     <link rel="self" href="https://pancakesoup.github.io/atom.xml"/>
     <logo>https://pancakesoup.github.io/images/avatar.png</logo>
     <icon>https://pancakesoup.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, 阿卡林</rights>
+    <entry>
+        <title type="html"><![CDATA[愚人节]]></title>
+        <id>https://pancakesoup.github.io/post/yrj22/</id>
+        <link href="https://pancakesoup.github.io/post/yrj22/">
+        </link>
+        <updated>2022-04-01T12:02:23.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[爱比克泰德]]></title>
         <id>https://pancakesoup.github.io/post/abktd/</id>
